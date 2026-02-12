@@ -38,7 +38,7 @@ questions = [
     ("f(x)=√x+2 +2", "-2"),
     ("√49 + √36 kaçtır?", "13"),
     ("x - 5 < 10 x=?", "15"),
-    ("babanla ananın yaşının toplamı", f"{random.randint(50,90),}")
+    ("f(x)=2(1/x+2)", "-2")
 
 ]
 question_index = 0
@@ -238,3 +238,4 @@ while True:
         game_over_screen()
     elif result == "kazandı":
         win_screen()
+
